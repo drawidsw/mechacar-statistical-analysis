@@ -54,6 +54,7 @@ In this dataset as seen [here](Suspension_Coil.csv), data is given for the vehic
 First, the summary statistics of of all data can be seen in the screenshot below.
 
 ![](deliverable2/img1.png)
+
 *Image 1: Summary Statistics for All Data*
 
 As seen above, the mean of 1498.78 tracks very closely to the ideal value of 1500. The variable of 62.29 is below the target maximum variance of 100. Overall, all lots seem to be performing as per the speck. The next question is to determine if there are qualitative differences in the manufacturing processes of the three lots.
@@ -61,7 +62,8 @@ As seen above, the mean of 1498.78 tracks very closely to the ideal value of 150
 The screenshot below shows the summary statistics of the individual lot.
 
 ![](deliverable2/img2.png)
-*Image 1: Summary Statistics for Each Lot*
+
+*Image 2: Summary Statistics for Each Lot*
 
 As seeen above, a drastically different picture emerges.
 
