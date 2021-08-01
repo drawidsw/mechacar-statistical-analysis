@@ -27,7 +27,7 @@ From the table, we see that the *p-value* of the regression is lesser than 0.05.
 
 To understand which independent variables are important predictors, both the *coefficient* and the *p-value* of the coefficient are considered. The coefficient should be large and the p-value should be small for the independent variable to be important for the model. The table below shows important variables.
 
-| Variable | Coefficient | Standard error | t-statistic | p-value  | Is Important | 
+| Variable | Coefficient | Standard error | t-statistic | p-value: Pr > |t|  | Is Important | 
 | -------- | ----------- | -------------- | ----------- | ------------------ | ------------ |
 
 
