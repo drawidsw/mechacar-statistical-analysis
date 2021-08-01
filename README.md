@@ -23,7 +23,7 @@ The summary statistics are given in the table as below.
 | F-statistic | 22.07 | 5 and 44 DF |
 | **p-value** | **5.35e-11** | |
 
-From the table, we see that the *p-value* of the regression is a very small number, lower than the standard alpha 0.05. This shows that the NULL hypothesis is **rejected**, and the alternative hypothesis is true. Meaning, the slope of the regression is nonzero, and the **mpg of the car is influenced by at least one of the independent variables considered in the analysis.**
+From the table, we see that the *p-value* of the regression is lesser than 0.05. This shows that the NULL hypothesis is **rejected**, and the alternative hypothesis is true. Meaning, the slope of the regression is nonzero, and the **mpg of the car is influenced by at least one of the independent variables considered in the analysis.**
 
 To understand which independent variables are important predictors, both the coefficient and the p-value of the coefficient are considered. The coefficient should be large and the p-value should be small for the independent variable to be important for the model. The table below shows important variables.
 
