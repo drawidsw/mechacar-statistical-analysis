@@ -25,16 +25,11 @@ The summary statistics are given in the table as below.
 
 From the table, we see that the *p-value* of the regression is lesser than 0.05. This shows that the NULL hypothesis is **rejected**, and the alternative hypothesis is true. Meaning, the slope of the regression is nonzero, and the **mpg of the car is influenced by at least one of the independent variables considered in the analysis.**
 
-To understand which independent variables are important predictors, both the coefficient and the p-value of the coefficient are considered. The coefficient should be large and the p-value should be small for the independent variable to be important for the model. The table below shows important variables.
+To understand which independent variables are important predictors, both the *coefficient* and the *p-value* of the coefficient are considered. The coefficient should be large and the p-value should be small for the independent variable to be important for the model. The table below shows important variables.
 
-| Variable | Coefficient | Standard error | t-statistic | p-value (Pr(>|t|)) | Is Important | 
+| Variable | Coefficient | Standard error | t-statistic | p-value: Pr(>|t|)  | Is Important | 
 | -------- | ----------- | -------------- | ----------- | ------------------ | ------------ |
-| Intercept | -104 | 1.585e+01 | -6.559 | 5.08e-08 | **Yes** |
-| vehicle_length | 6.267 |  6.553e-01 | 9.563 | 2.60e-12 | **Yes** |
-| vehicle_weight | 1.245e-03 | 6.890e-04 | 1.807 | 0.0776 | **No** |  
-| spoiler_angle | 6.877e-02 | 6.653e-02 | 1.034 | 0.3069 | **No** |   
-| ground_clearance | 3.546 | 5.412e-01 | 6.551 | 5.21e-08 | **Yes** |
-| AWD | -3.411 | 2.535 | -1.346 | 0.1852 | **No** |
+
 
 From the table above, we see the following variables are good predictors of the **mpg** of the vehicle. In both cases, the coefficient is high, the standard error is low and thus, the p-value is very low.
 * **Vehicle Length**
