@@ -47,4 +47,24 @@ Conversely, the following three variables are **not** good predictors of **mpg**
 * **AWD**: The coefficient is high, but the standard error is high as well, and the p-value is at 0.19, which is much higher than 0.05. This variable is thus not an accurate predictor of **mpg** and should be dropped from the model.
 
 
+## Summary Statistics on Suspension Coils
 
+In this dataset as seen [here](Suspension_Coil.csv), data is given for the vehicle *PSI* manufactured in three different lots. The objective is to keep the PSI values as close as possible to the ideal target value of **1500**.
+
+First, the summary statistics of of all data can be seen in the screenshot below.
+
+![](deliverable2/img1.png)
+*Image 1: Summary Statistics for All Data*
+
+As seen above, the mean of 1498.78 tracks very closely to the ideal value of 1500. The variable of 62.29 is below the target maximum variance of 100. Overall, all lots seem to be performing as per the speck. The next question is to determine if there are qualitative differences in the manufacturing processes of the three lots.
+
+The screenshot below shows the summary statistics of the individual lot.
+
+![](deliverable2/img2.png)
+*Image 1: Summary Statistics for Each Lot*
+
+As seeen above, a drastically different picture emerges.
+
+* Lot 1 is nearly spotless with the best performance. Its mean is almost exactly 1500 and its variance is almost negligible and < 1.
+* Lot 2 is also highly performant. Its mean of 1500.2 just veers higher than the target value of 1500, and its variance of 7.47 is way below the target variance of 100.
+* Lot 3 is non-performant and needs to be fixed. Its mean is 1496.14, which seems significantly lower than the target mean of 1500, and its variance of 170.29 is much higher than the target variance of 100. The manufacturing data for lot three shows that it **does not meet the design specifications**. 
