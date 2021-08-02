@@ -38,3 +38,27 @@ lot_summary <- suspension_coils_table %>% group_by(Manufacturing_Lot) %>%
                                                     Variance=var(PSI),
                                                     SD=sd(PSI),
                                                     .groups = 'keep')
+                                                    
+################## Deliverable three ##########################################
+
+# 1. t-test for all lots.
+t.test(suspension_coils_table$PSI, mu=1500)
+
+# 2. t-tests for each lot
+# 2a: lot1
+t.test(formula = PSI ~ 1, 
+       data=suspension_coils_table,
+       subset= Manufacturing_Lot == "Lot1",
+       mu=1500)
+
+#2b: lot2
+t.test(formula = PSI ~ 1, 
+       data=suspension_coils_table,
+       subset= Manufacturing_Lot == "Lot2",
+       mu=1500)
+       
+#2c: lot3
+t.test(formula = PSI ~ 1, 
+       data=suspension_coils_table,
+       subset= Manufacturing_Lot == "Lot3",
+       mu=1500)
