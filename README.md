@@ -95,12 +95,24 @@ The three images below show the results of the t-tests for each lot. We can see 
 | 2 | ![](deliverable3/img3.png) |
 | 3 | ![](deliverable3/img4.png) |
 
+## Study Design: MechaCar vs Competition
 
+### Metric
 
+In this study, we will choose **mpg** (miles per Gallon) of the car as the metric to compare against.
 
+### Hypothesis:
 
+**NULL (Ho)**: The *mpg* metric of sample one (our cars) is **not** statistically **different** than the *mpg* metric of sample two (competitor's cars).
+**Alternate (Ha)**: The *mpg* metric of sample one (our cars) is statistically **different** than the *mpg* metric of sample two (competitor's cars).
 
+### Statistical Test:
 
+A **two-sample t-test** is used for this hypothesis. One comment here is that the two-sample test works only for equality and doesn't tell us whether our *mpg* metric is strictly higher than the competitor's *mpg* metric. To fix this, we should use a **one-sided** t-test. Then, the revised hypothesis becomes:
 
+**NULL (Ho)**: The *mpg* metric of sample one (our cars) is **not** statistically **greater than** than the *mpg* metric of sample two (competitor's cars).
+**Alternate (Ha)**: The *mpg* metric of sample one (our cars) is statistically **greater than** than the *mpg* metric of sample two (competitor's cars).
 
+### Data Collection
 
+A large sample of cars should be selected for both sets and their **mpg** should be measured. According to the **Central Limit Theorem**, the larger the sample, the better the accuracy of the test. In practice, at least 30 sample for each set should be chosen.
