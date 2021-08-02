@@ -108,7 +108,7 @@ In this study, we will choose **mpg** (miles per Gallon) of the car as the metri
 
 ### Statistical Test:
 
-A **two-sample t-test** is used for this hypothesis. One comment here is that the two-sample test works only for equality and doesn't tell us whether our *mpg* metric is strictly higher than the competitor's *mpg* metric. To fix this, we should use a **one-sided** t-test. Then, the revised hypothesis becomes:
+A **two-sample t-test** is used for this hypothesis. One caveat here is that the standard two-sample test works only for equality and doesn't tell us whether our *mpg* metric is strictly higher than the competitor's *mpg* metric. To fix this, we should use a **one-sided** t-test. Then, the revised hypothesis becomes:
 
 **NULL (Ho)**: The *mpg* metric of sample one (our cars) is **not** statistically **greater than** than the *mpg* metric of sample two (competitor's cars).
 **Alternate (Ha)**: The *mpg* metric of sample one (our cars) is statistically **greater than** than the *mpg* metric of sample two (competitor's cars).
