@@ -89,10 +89,11 @@ The screenshot below shows the result of the t-test of the entire population. Th
 
 The three images below show the results of the t-tests for each lot. We can see that the means are statistically identical to 1500 for lots 1 and 2, but the mean is proven to be statistically different than 1500 for lot 3 since the p-value is less than 0.05 - it is calculated as 0.042. Thus, we conclude that the PSI mean is different than the target PSI value of 1500 **only for lot 3**.
 
-| Lot 1 | Lot 2 | Lot 3 |
-| ----- | ----- | ----- |
-|![](deliverable3/img2.png)|![](deliverable3/img3.png)|![](deliverable3/img1.png)|
-
+| Lot | Screenshot |
+| ----- | ----- | 
+| Lot 1 | ![](deliverable3/img2.png) |
+| Lot 2 | ![](deliverable3/img3.png) |
+| Lot 3 | ![](deliverable3/img4.png) |
 
 
 
