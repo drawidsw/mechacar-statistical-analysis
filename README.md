@@ -70,3 +70,36 @@ As seeen above, a drastically different picture emerges.
 * Lot 1 is nearly spotless with the best performance. Its mean is almost exactly 1500 and its variance is almost negligible and < 1.
 * Lot 2 is also highly performant. Its mean of 1500.2 just veers higher than the target value of 1500, and its variance of 7.47 is way below the target variance of 100.
 * Lot 3 is non-performant and needs to be fixed. Its mean is 1496.14, which seems significantly lower than the target mean of 1500, and its variance of 170.29 is much higher than the target variance of 100. The manufacturing data for lot three shows that it **does not meet the design specifications**. 
+
+## T-Tests on Suspension Coils
+
+From the Suspension coils dataset as seen [here](Suspension_Coil.csv), we wish to investigate if:
+* The population mean is significantly different from the target mean of 1500
+* The mean of each of the lots is significantly different from the target mean of 1500.
+
+### Population Mean PSI
+
+The screenshot below shows the result of the t-test of the entire population. The population mean of 1496.78 appears different from 1500, but the p-value of 0.06 is greater than 0.05, so we cannot rule out the NULL hypothesis. The probability of **false negative is 94%**, which is quite high, but in statistics, 95% is usually required (corresponding to the p-value of 0.or or lower) to reject the NULL hypothesis.
+
+![](deliverable3/img1.png)
+
+*Image 3: t-test for the Whole Dataset*
+
+### Mean PSI for Each Lot
+
+The three images below show the results of the t-tests for each lot. We can see that the means are statistically identical to 1500 for lots 1 and 2, but the mean is proven to be statistically different than 1500 for lot 3 since the p-value is less than 0.05 - it is calculated as 0.042. Thus, we conclude that the PSI mean is different than the target PSI value of 1500 **only for lot 3**.
+
+| Lot 1 | Lot 2 | Lot 3 |
+| ----- | ----- | ----- |
+|![](deliverable3/img2.png)|![](deliverable3/img3.png)|![](deliverable3/img1.png)|
+
+
+
+
+
+
+
+
+
+
+
