@@ -91,9 +91,9 @@ The three images below show the results of the t-tests for each lot. We can see 
 
 | Lot | Screenshot |
 | ----- | ----- | 
-| Lot 1 | ![](deliverable3/img2.png) |
-| Lot 2 | ![](deliverable3/img3.png) |
-| Lot 3 | ![](deliverable3/img4.png) |
+| 1 | ![](deliverable3/img2.png) |
+| 2 | ![](deliverable3/img3.png) |
+| 3 | ![](deliverable3/img4.png) |
 
 
 
